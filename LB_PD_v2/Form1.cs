@@ -27,13 +27,33 @@ namespace LB_PD_v2
 
         }
 
+        private void Apreekini(string precu_noss1, int prec_cenas1, int precu_daudzumss1)
+        {
+            int summa;
+            summa = prec_cenas1 * precu_daudzumss1;
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        private void aprekinat_btn_Click(object sender, EventArgs e)
         {
+            int prece1 = Convert.ToInt32(precu_cena1.Text);
+            int prece2 = Convert.ToInt32(precu_cena2.Text);
+            int prece3 = Convert.ToInt32(precu_cena3.Text);
+
+            double daudz = Convert.ToInt32(precu_daudzums1.Value);
+
+
+
+
 
         }
     }

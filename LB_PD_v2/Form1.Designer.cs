@@ -44,6 +44,9 @@
             this.precu_nos2 = new System.Windows.Forms.TextBox();
             this.precu_nos3 = new System.Windows.Forms.TextBox();
             this.aprekini = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.precu_daudzums1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.precu_daudzums2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.precu_daudzums3)).BeginInit();
@@ -90,6 +93,7 @@
             this.aprekinat_btn.TabIndex = 4;
             this.aprekinat_btn.Text = "Apreķināt";
             this.aprekinat_btn.UseVisualStyleBackColor = true;
+            this.aprekinat_btn.Click += new System.EventHandler(this.aprekinat_btn_Click);
             // 
             // label3
             // 
@@ -171,14 +175,44 @@
             // 
             this.aprekini.Location = new System.Drawing.Point(613, 129);
             this.aprekini.Name = "aprekini";
-            this.aprekini.Size = new System.Drawing.Size(100, 20);
+            this.aprekini.Size = new System.Drawing.Size(142, 20);
             this.aprekini.TabIndex = 15;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(51, 79);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(46, 13);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "1. prece";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(51, 107);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(46, 13);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "2. prece";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(51, 137);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(46, 13);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "3. prece";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.aprekini);
             this.Controls.Add(this.precu_nos3);
             this.Controls.Add(this.precu_nos2);
@@ -224,6 +258,9 @@
         private System.Windows.Forms.TextBox precu_nos2;
         private System.Windows.Forms.TextBox precu_nos3;
         private System.Windows.Forms.TextBox aprekini;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }
 
