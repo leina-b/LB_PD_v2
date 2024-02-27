@@ -1,0 +1,10 @@
+Z:\Programmēšana\LB_PD_v2\LB_PD_v2\bin\Debug\LB_PD_v2.exe.config
+Z:\Programmēšana\LB_PD_v2\LB_PD_v2\bin\Debug\LB_PD_v2.exe
+Z:\Programmēšana\LB_PD_v2\LB_PD_v2\bin\Debug\LB_PD_v2.pdb
+Z:\Programmēšana\LB_PD_v2\LB_PD_v2\obj\Debug\LB_PD_v2.csprojAssemblyReference.cache
+Z:\Programmēšana\LB_PD_v2\LB_PD_v2\obj\Debug\LB_PD_v2.Form1.resources
+Z:\Programmēšana\LB_PD_v2\LB_PD_v2\obj\Debug\LB_PD_v2.Properties.Resources.resources
+Z:\Programmēšana\LB_PD_v2\LB_PD_v2\obj\Debug\LB_PD_v2.csproj.GenerateResource.cache
+Z:\Programmēšana\LB_PD_v2\LB_PD_v2\obj\Debug\LB_PD_v2.csproj.CoreCompileInputs.cache
+Z:\Programmēšana\LB_PD_v2\LB_PD_v2\obj\Debug\LB_PD_v2.exe
+Z:\Programmēšana\LB_PD_v2\LB_PD_v2\obj\Debug\LB_PD_v2.pdb
